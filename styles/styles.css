@@ -1,9 +1,47 @@
 :root {
   --background-color: #1e1e1e;
+  --font-white: #ffffff;
+  --background-button-default: #757eeb;
+  --background-button-hover: rgb(89, 101, 235);
 }
 
-.custom-color {
+.bg-color {
   background-color: var(--background-color); /* Background color para fundo */
+}
+
+.title-default {
+  font-family: "Akshar", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: var(--font-white);
+}
+
+.input-default {
+  color: var(--font-white);
+  font-style: normal;
+  background-color: transparent;
+  border: none;
+  font-family: "Akshar", sans-serif;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.button-default {
+  background-color: var(--background-button-default);
+  font-family: "Akshar", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--font-white);
+
+  width: 200px;
+}
+
+.button-default:hover {
+  color: var(--font-white);
+  background-color: var(--background-button-hover);
+  cursor: pointer;
 }
 
 html,
